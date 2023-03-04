@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <EditText
+        android:textColor="@color/white"
         android:id="@+id/editTextTextPersonName"
         android:layout_width="833dp"
         android:layout_height="96dp"
@@ -35,12 +36,26 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/background"
+        android:layout_width="289dp"
+        android:layout_height="78dp"
+        android:background="@drawable/textbox"
+        android:foreground="@drawable/textbox"
         android:text="Generar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="392dp"
+        android:layout_height="78dp"
+        android:text="AREA DE LOGIN"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
